@@ -1,15 +1,29 @@
-# Reto # - Nombre del reto
+# Reto #: Crear Directivas Angular
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+- Generar directiva angular usando el cli.
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Ya conoces los comando mas utilizados en angular, ahora los utilizaremos para generar directivas que utilizaremos mas adelante para formatear el texto de mayusculas a minusculas cual el usuario introdusca datos en un input text.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+
+1. Genera una Directiva en una ruta recomendada con el nombre ToLowerCase.
+
+Notas: 
+- Las rutas a continuacion son sugerencias, puedes escoger el directorio de tu preferencia pero siguiendo las buenas practicas.
+
+
+
+    </br>
+
+<details>
+    <summary>Solución</summary>
+    
+  `ng generate directive /core/directives/to-lower-case/to-lower-case`
+
+  
+</details>
+
 

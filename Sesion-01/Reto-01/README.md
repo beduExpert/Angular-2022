@@ -1,59 +1,33 @@
-# Reto #: Nombre del reto
+# Reto #: Crear un nuevo Proyecto
 
 ## Objetivo
 
-- Implementar los dos tipos de errores y gestionarlos mediante las opciones del dashboard de Crashlytics.
+- Generar un nuevo proyecto con angular con el nombre de sesion01.
 
 ## Desarrollo
 
-Ya conociste el primer tipo de error: el producido en el Ejemplo 2. Este evento es de tipo Falla y es provocado cuando la app obtiene una excepción y no sabe cómo responder, por lo que el resultado es el cierre inesperado. 
-
-El segundo tipo es Error recuperable. Este tipo sucede cuando agregamos un bloque de try / catch. Si el código dentro del try falla, es posible almacenar la excepción y Crashlytics enviará el error en algún momento, pues este error no tiene la misma prioridad que el otro y tardará más en enviarlo.
+Ya conoces la forma de instalar angular, es hora de crear tu primer proyecto siguiendo buenas practicas para organizar este y futuras apps creadas con angular.
 
 Notas: 
-- Crashlytics guarda máximo 64 kb del log en memoria para evitar saturar la app.
-- Los errores pueden tardar hasta 5 minutos en aparecer, por lo que debe tenerse paciencia si no aparecen rápido.
-
-Ahora que reconoces los tipos de errores y las formas de gestionarlos, sigue las indicaciones expuestas a continuación para resolver el reto 2.
-
-1. Genera un error recuperable dentro del clickListener del botón Crash.
-2. Después, genera una falla en el mismo evento, de modo que cierre la app.
-3. Gestiona los errores en Crashlytics:
-    - **a)** Agrega notas (Comentarios) a los errores generados, previamente
-    - **b)** Silencia el error indicando que ya corregiste el error y no tiene caso que te siga notificando, por lo que es posible cancelar los avisos.
-    - **c)** Cierra el error indicando que ya fue solucionado.
-
-    </br>
-
-<details>
-    <summary>Solución 1-2</summary>
+- puedes usar la terminal que se encuentra en VSCode para mayor comodidad.
+    Para abrir la terminal en VSCode:
     
-  ```kotlin
-  binding.btnCrash.setOnClickListener {
-  //1
-    try {
-        Log.e(TAG, "handleClick: " + 0 / 0)
-    } catch (e: Exception) {
-        FirebaseCrashlytics.getInstance().recordException(e)
-    }
-  //2
-    throw RuntimeException("Test Crash") // Force a crash
-  }
-  ```
-</details>
+    <img src="assets/terminalp1.png" width="40%"/>
+    <br>
+    <img src="assets/terminalp2.png" width="40%"/>
+    <br>
+    <img src="assets/terminalp3.png" width="40%"/>
 
-  </br>
 
-<details>
-  <summary>Solución 3</summary>
-a)
-    <img src="assets/01.png" width="50%"/>
+- Sigue algun patron de carpetas como este: C:/Develop/Curso/Sesion01
 
-b)
-    <img src="assets/02.png" width="50%"/>
-    
-c)
-    <img src="assets/03.png" width="50%"/>
-</details>
 
-</br>
+
+
+
+
+Cuando tu proyecto este terminado, abrelo con VSCode para comenzar a utilizarlo y desde la terminal situado en la raiz del proyecto ejecuta `ng serve` para poner en marcha la app, esto puede tomar un poco de tiempo mientras se compila.
+
+
+
+
