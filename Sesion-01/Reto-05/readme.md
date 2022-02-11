@@ -1,4 +1,4 @@
-# Reto 05#: Crear Pipes Angular
+# Reto 05: Crear Pipes Angular
 
 ## Objetivo
 

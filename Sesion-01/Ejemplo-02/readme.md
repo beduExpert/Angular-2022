@@ -1,4 +1,4 @@
-# Ejemplo 02 #: Crear un Componente
+# Ejemplo 02: Crear un Componente
 
 ## Objetivo
 

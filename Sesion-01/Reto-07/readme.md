@@ -1,4 +1,4 @@
-# Reto 07#: Crear Guard Angular
+# Reto 07: Crear Guard Angular
 
 ## Objetivo
 

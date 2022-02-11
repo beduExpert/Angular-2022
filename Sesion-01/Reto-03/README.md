@@ -1,4 +1,4 @@
-# Reto 03#: Crear Directivas Angular
+# Reto 03: Crear Directivas Angular
 
 ## Objetivo
 

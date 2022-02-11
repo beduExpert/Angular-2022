@@ -1,4 +1,4 @@
-# Reto 01#: Crear un nuevo Proyecto
+# Reto 01: Crear un nuevo Proyecto
 
 ## Objetivo
 

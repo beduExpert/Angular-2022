@@ -1,4 +1,4 @@
-# Reto 02#: Crear un nuevo Componente
+# Reto 02: Crear un nuevo Componente
 
 ## Objetivo
 

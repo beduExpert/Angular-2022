@@ -1,4 +1,4 @@
-# Ejemplo 01 #: Iniciar un Proyecto
+# Ejemplo 01: Iniciar un Proyecto
 
 ## Objetivo
 
