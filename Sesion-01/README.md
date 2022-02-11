@@ -86,6 +86,8 @@ El comando ”ng serve” nos despliega un servidor sobre el puerto 4200(puedes 
 `ng serve --port 4201`
 
 
+- [**`Ejemplo 1`**](./Ejemplo-01)
+
 Crear una compilacion
 ---
 
@@ -141,6 +143,9 @@ Lo anterior generaria un componente con el nombre NombreComponenteComponent
 Ademas podemos colocar la ruta en donde se generara el componente:
 
 `ng generate component /ruta/hacia/elcomponente/nombre-componente`
+
+
+- [**`Ejemplo 2`**](./Ejemplo-02)
 
 - [**`RETO 2`**](./Reto-02)
 

@@ -16,17 +16,23 @@ Notas:
     <br>
     <img src="assets/terminalp2.png" width="40%"/>
     <br>
-    <img src="assets/terminalp3.png" width="40%"/>
-
+    y puedes cambiar la ruta inicial a alguna ruta para gestionar el curso
+     <br>
+    <img src="assets/cd.png" width="40%"/>
+ <br>
 
 - Sigue algun patron de carpetas como este: C:/Develop/Curso/Sesion01
 
 
+<details>
+    <summary>Solución </summary>
+    
+  `ng new sesion01`
+<br><br>
+    <img src="assets/final.png" width="78%"/>
+  
+</details>
 
-
-
-
-Cuando tu proyecto este terminado, abrelo con VSCode para comenzar a utilizarlo y desde la terminal situado en la raiz del proyecto ejecuta `ng serve` para poner en marcha la app, esto puede tomar un poco de tiempo mientras se compila.
 
 
 
