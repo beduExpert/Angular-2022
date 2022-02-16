@@ -36,7 +36,7 @@ develop/
 - Los nombres de los archivos de componentes y carpetas deben usar kebab-case
 - Crea las mismas directivas, pipes, páginas etc. que usamos en el work.
 
-<details open>
+<details>
     <summary>Solución </summary>
     
  Primero abriremos VSCode y abriremos una nueva terminal, y nos posicionamos en la carpeta raiz del curso
