@@ -9,7 +9,7 @@
 Ya conoces los comando mas utilizados en angular, ahora los utilizaremos para generar un pipe que utilizaremos mas adelante para formatear precios. fechas o injectar html en un componente .
 
 
-1. Genera un pipe en una ruta recomendada con el nombre Cors.
+1. Genera un pipe en una ruta recomendada con el nombre dateCustom.
 2. Genera un pipe en una ruta recomendada con el nombre sanitizeHtml.
 
 Notas: 
@@ -22,7 +22,7 @@ Notas:
 <details>
     <summary>Solución 1</summary>
     
-  `ng generate service /core/services/cors/cors`
+  `ng generate pipe /core/pipes/custom-date/custom-date`
 
   
 </details>
@@ -30,7 +30,7 @@ Notas:
 <details>
     <summary>Solución 2</summary>
     
-  `ng generate service /core/services/cors/sanitize-html`
+  `ng generate pipe /core/pipes/sanitize-html/sanitize-html`
 
   
 </details>
