@@ -1,15 +1,31 @@
-# Reto # - Nombre del reto
+# Reto # - Generar un componente layout
 
 ## Objetivo
 
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+* Generar un componente que servira como contenedor de rutas para un proyecto angular
+
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Con nuestro proyecto angular funcional es hora de crear el segundo componente dump y reutilizarlo, ademas siguiendo buenas practicas para nombrar tu nuevo componente.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+----
 
+1. ¿Cual de los siguientes comandos cli nos generaria un correcto nombre de clase para nuestro componente?:
+
+
+    - **a)** `ng generate component /core/modules/layout-component --skip-import`
+    - **b)** `ng generate component logincomponent --skip-import`
+    - **c)** `ng generate component /components/login/logincomponent--skip-import`
+    - **d)** `ng generate component /core/shared/layout/layout --skip-import`
+
+    </br>
+
+<details>
+    <summary>Solución </summary>
+    
+  `ng generate component /core/shared/layout/layout --skip-import`
+
+  Recuerda que cada funcionalidad que crees debe ir muy bien organizada de acuerdo a su funcion especifica.
+  
+</details>
