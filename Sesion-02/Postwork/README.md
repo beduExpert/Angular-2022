@@ -1,4 +1,4 @@
-# Sesión #: PostWork
+# Sesión 2: PostWork
 
 ## :dart: Objetivos
 

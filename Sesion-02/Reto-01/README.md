@@ -1,4 +1,4 @@
-# Reto # - Generar un Modulo Shared
+# Reto 1 - Generar un Modulo Shared
 
 ## Objetivo
 

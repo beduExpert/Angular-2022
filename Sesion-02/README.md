@@ -70,7 +70,7 @@ El Input nos permite pasar una data como entrada a nuestro componente, comúnmen
 
 <br>
 
-- [**`EJEMPLO 1`**](./Ejemplo-01)
+
 
 ---
 

@@ -1,4 +1,4 @@
-# Reto # - Generar un componente layout
+# Reto 2 - Generar un componente layout
 
 ## Objetivo
 
